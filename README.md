@@ -1,18 +1,15 @@
-# Anti-invisible-Discord-Bot
-
-It makes users unable to see channels when they are idle / offline.
-You just have to configure the server and the code in order to make it work.
-
 ## Anti-Invisible-idle-accepted.py	
 
   If the user's status is Invisible / Offline
-  then the channels are hidden.
+  then the role is getting removed.
+  If the status changes to else, the role is given to the user.
   
 ## Anti-Invisible.py
 
   If the user's status is Invisible / Offline / Idle
-  then the channels are hidden.
+  the role is getting removed.
+  If the status changes to else, the role is given to the user.
 
 ### Commands:
 
-(yourprefix)check = checks the statuses and adjusts the roles to them.
+(yourprefix)check = checks the statuses of the users and adjusts the roles to them.
