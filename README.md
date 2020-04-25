@@ -12,3 +12,7 @@ You just have to configure the server and the code in order to make it work.
 
   If the user's status is Invisible / Offline / Idle
   then the channels are hidden.
+
+### Commands:
+
+(yourprefix)check = checks the statuses and adjusts the roles to them.
