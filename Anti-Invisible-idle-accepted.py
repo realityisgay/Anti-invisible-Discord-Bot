@@ -2,12 +2,12 @@ import discord
 from discord.ext import commands
 from discord.utils import find
 from discord.utils import get
-client = commands.Bot(command_prefix = '.')
+client = commands.Bot(command_prefix = 'YOUR_CUSTOM_PREFIX')
 from webserver import keep_alive
 import asyncio
 import os
 
-roleid = ROLE_ID
+roleid = YOUR_ROLE_ID
 bottoken = 'YOUR_BOT_TOKEN'
 
 @client.event
